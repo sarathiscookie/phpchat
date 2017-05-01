@@ -1,0 +1,36 @@
+/*First stage*/
+html,body{
+    height: 100%;
+}
+
+.sidebar{
+
+}
+
+.chat-container{
+    height: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.chat-box,.chat-box .panel{
+    height: 400px;
+    width: 300px;
+    margin-top: -200px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.chat-box .panel-body{
+    overflow: auto;
+    height: 350px;
+}
+
+.panel-footer{
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+}
